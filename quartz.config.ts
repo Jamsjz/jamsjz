@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Jamsjz",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,8 +16,8 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "jamsjzgarden.vercel.app",
+    ignorePatterns: ["Private", "Templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#eff1f5", // Base
+          lightgray: "#e6e9ef", // Mantle
+          gray: "#bcc0cc", // Surface1
+          darkgray: "#4c4f69", // Text
+          dark: "#dce0e8", // Crust
+          secondary: "#1e66f5", // Blue
+          tertiary: "#179299", // Teal
+          highlight: "rgba(114, 135, 253, 0.15)", // Lavender with opacity
+          textHighlight: "#df8e1e88", // Yellow (transparent)
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1e1e2e", // Base
+          lightgray: "#181825", // Mantle
+          gray: "#585b70", // Surface2
+          darkgray: "#cdd6f4", // Text
+          dark: "#11111b", // Crust
+          secondary: "#89b4fa", // Blue
+          tertiary: "#94e2d5", // Teal
+          highlight: "rgba(180, 190, 254, 0.15)", // Lavender with opacity
+          textHighlight: "#f9e2af88", // Yellow (transparent)
         },
       },
     },
@@ -89,7 +89,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Plugin.CustomOgImages(),
     ],
   },
 }
