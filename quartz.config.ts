@@ -33,7 +33,7 @@ const config: QuartzConfig = {
           lightgray: "#e6e9ef", // Mantle
           gray: "#bcc0cc", // Surface1
           darkgray: "#4c4f69", // Text
-          dark: "#dce0e8", // Crust
+          dark: "#11111b", // Crust
           secondary: "#1e66f5", // Blue
           tertiary: "#179299", // Teal
           highlight: "rgba(114, 135, 253, 0.15)", // Lavender with opacity
@@ -44,7 +44,7 @@ const config: QuartzConfig = {
           lightgray: "#181825", // Mantle
           gray: "#585b70", // Surface2
           darkgray: "#cdd6f4", // Text
-          dark: "#11111b", // Crust
+          dark: "#dce0e8", // Crust
           secondary: "#89b4fa", // Blue
           tertiary: "#94e2d5", // Teal
           highlight: "rgba(180, 190, 254, 0.15)", // Lavender with opacity
